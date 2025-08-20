@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "aspen",
   "name": "bitbybit",
   "colors": {
     "primary": "#16A34A",
@@ -11,16 +11,29 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "bitCRM",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development",
-              "bitlogin",
-              "frontmatter"
+              "bitcrm/how-to-create-and-connect-whatsapp-cloud-api",
+              "bitcrm/how-to-connect-whatsapp-business-app",
+              "bitcrm/how-to-add-a-profile-picture-to-your-whatsapp-cloud-api-from-the-app",
+              "bitcrm/how-to-add-a-profile-picture-to-your-whatsapp-cloud-api-from-facebook"
+            ]
+          },
+          {
+            "group": "Creating and Editing a Campaign",
+            "pages": [
+              "bitcrm/how-to-create-a-new-whatsapp-business-app-campaign",
+              "bitcrm/how-to-create-a-new-whatsapp-cloud-api-campaign-with-bitbybit",
+              "bitcrm/how-to-create-a-message-template-campaign-for-whatsapp-api",
+              "bitcrm/how-to-create-a-new-campaign-for-whatsapp-business-app",
+              "bitcrm/how-to-add-an-image-to-your-campaign",
+              "bitcrm/how-to-create-a-personalized-message-using-dynamic-variables",
+              "bitcrm/how-to-create-a-campaign-with-button-options",
+              "bitcrm/how-to-edit-or-cancel-an-already-scheduled-campaign"
             ]
           },
           {
@@ -29,22 +42,41 @@
               "essentials/settings",
               "essentials/navigation"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "bitChat",
+        "groups": [
           {
-            "group": "Writing content",
+            "group": "Getting started with bitChat",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "bitchat/how-to-create-and-connect-whatsapp-cloud-api-with-bitbybit",
+              "bitchat/how-to-add-a-profile-picture-to-your-whatsapp-cloud-api-via-facebook",
+              "bitchat/how-to-add-a-profile-picture-to-your-whatsapp-cloud-api-via-the-app",
+              "bitchat/how-to-connect-whatsapp-business-app-with-bitbybit",
+              "bitchat/how-to-integrate-your-instagram-business-with-bitchat",
+              "bitchat/how-to-integrate-facebook-messenger-with-bitchat"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "bitLogin",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "bitlogin/how-to-activate-bitlogin-from-shopify"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Settings",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "bitlogin/how-to-set-up-google-oauth-google-one-tap",
+              "bitlogin/how-to-set-up-amazon-oauth",
+              "bitlogin/how-to-set-up-microsoft-oauth",
+              "bitlogin/how-to-set-up-facebook-oauth"
             ]
           }
         ]
